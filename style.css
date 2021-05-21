@@ -1,0 +1,50 @@
+form  {
+    width: 400px;
+    height: 600px;
+    background-color: #1a181b;
+    padding: 10px;
+    display: inline-block;
+    left-margin: auto;
+    right-margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border: 6px solid red;
+    border-radius: 0%;
+    color: red;
+    box-shadow:
+  0 11.6px 11.6px rgba(0, 0, 0, 0.15),
+  0 26.9px 26.9px red,
+  0 48.4px 48.4px rgba(0, 0, 0, 0.253),
+  0 80.3px 80.3px red,
+  0 132.3px 132.3px rgba(0, 0, 0, 0.345),
+  0 231.2px 231.2px red,
+  0 500px 500px rgba(0, 0, 0, 0.62);
+
+
+  }
+
+td {
+  text-align: center;
+  color: white;
+}
+
+.neonText {
+  color: red;
+  text-shadow:
+    0 0 7px red,
+    0 0 10px red,
+    0 0 21px red,
+    0 0 42px #bda418,
+    0 0 82px #bda418,
+    0 0 92px #bda418,
+    0 0 102px #bda418,
+    0 0 151px #bda418;
+}
+
+#background path {
+animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+
+/* Necessary to keep the SVG objects in place while scaling */
+transform-origin: 50% 50%;
+transform-box: fill-box;
+}
