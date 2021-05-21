@@ -23,9 +23,15 @@ form  {
 
   }
 
+.background {
+animation:
+
+}
+
 td {
   text-align: center;
   color: white;
+
 }
 
 .neonText {
@@ -41,10 +47,43 @@ td {
     0 0 151px #bda418;
 }
 
-#background path {
-animation: pulse 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
 
-/* Necessary to keep the SVG objects in place while scaling */
-transform-origin: 50% 50%;
-transform-box: fill-box;
+.button {
+  background-color: #c21010;
+  border: 3px solid #0f518a;
+  color: black;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+  box-shadow: 2px 14px 23px;
+  cursor: pointer;
+}
+
+input[type=button]:hover{
+  background-color: #ae593f;
+}
+
+input[type=button]:active {
+background-color: white;
+border-color: red;
+color: black;
+}
+
+input[type=text] {
+width: 140%;
+padding: 2px 9px;
+display: inline-block;
+border: 2px solid red;
+border-raidus: 7px;
+box-sizing: border-box;
+background-color: #595858;
+}
+
+input[type=text]:focus {
+  color: white;
 }
