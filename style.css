@@ -27,20 +27,6 @@ form  {
 background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
-@keyframes starshooting {
-
-  0% {
-    width: 0;
-  }
-  15% {
-    width: 100px;
-  }
-
-  50%, 100% {
-    width: 0;
-  }
-}
-
 td {
   text-align: center;
   color: white;
@@ -61,6 +47,24 @@ td {
     0 0 102px #bda418,
     0 0 151px #bda418;
 
+}
+
+.option{
+  background-color: red;
+  color: black;
+}
+
+.option:hover{
+  background-color: black;
+  color: white;
+  border-color: red;
+}
+
+
+.option:focus{
+  background-color: black;
+  color: white;
+  border-color: red;
 }
 
 
