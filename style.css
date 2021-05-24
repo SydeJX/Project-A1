@@ -37,6 +37,7 @@ td {
 .neonText {
   color: red;
   text-shadow:
+    0 0 20px black,
     0 0 7px red,
     0 0 10px red,
     0 0 21px red,
@@ -45,27 +46,44 @@ td {
     0 0 92px #bda418,
     0 0 102px #bda418,
     0 0 151px #bda418;
+
+
 }
 
 
+  .shadow {​​​​​​​
+    background-color: #3a50d9;
+    color: #e0eff2;
+    font: italic bold 24px Georgia, Serif;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+​
+  }
+
 .button {
-  background-color: #c21010;
-  border: 3px solid #0f518a;
+  background-color: red;
   color: black;
   padding: 7px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  margin: 4px 2px;
+  margin: 17px 2px;
   cursor: pointer;
-  border-radius: 10%;
-  box-shadow: 2px 14px 23px;
-  cursor: pointer;
+  box-shadow: 2px 17px 23px;
 }
 
+.checkbox {
+  margin: 15px 2px;
+
+}
+
+
+
+
 input[type=button]:hover{
-  background-color: #ae593f;
+  background-color: black;
+  border: 3px solid red;
+  color: red;
 }
 
 input[type=button]:active {
