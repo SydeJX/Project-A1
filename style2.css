@@ -1,0 +1,10 @@
+.head {
+text-align: center;
+font-size: 50px;
+
+}
+
+.background {
+background: radial-gradient(ellipse at top, #1b2735 100%, #090a0f 100%);
+size: 100px;
+}
