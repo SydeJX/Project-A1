@@ -97,13 +97,13 @@ td {
 
 
 
-input[type=button]:hover{
+input[type=submit]:hover{
   background-color: black;
   border: 3px solid red;
   color: red;
 }
 
-input[type=button]:active {
+input[type=submit]:active {
 background-color: white;
 border-color: red;
 color: black;
