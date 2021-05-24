@@ -28,14 +28,14 @@ background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 @keyframes starshooting {
-  /* Animation happens between 0% and 50% */
+
   0% {
     width: 0;
   }
   15% {
     width: 100px;
   }
-  /* Animation is paused/delayed between 50% and 100% */
+
   50%, 100% {
     width: 0;
   }
@@ -46,6 +46,7 @@ td {
   color: white;
 
 }
+
 
 .neonText {
   color: red;
@@ -59,7 +60,6 @@ td {
     0 0 92px #bda418,
     0 0 102px #bda418,
     0 0 151px #bda418;
-
 
 }
 
