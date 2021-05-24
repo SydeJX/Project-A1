@@ -8,7 +8,7 @@
   </head>
   <body class="background" style="background-color: black">
 
-<center> <form class="" action="Thanks.html" method="post">
+<center> <form action="Thanks.html" method="post" onsubmit="return OnClickEvent(this)">
     <table>
       <tr>
         <h3 class="shadow"><b class="neonText">Kirjautumislomake</b></h3>
@@ -17,10 +17,10 @@
       </tr>
       <tr>
         <td>Salasana:</td>
-       <td class="death"> <input type="password" name="KäyttäjäSalasana" Käyttäjän salasana="" value="" </td>
+       <td class="death"> <input type="password" id="classzero" name="KäyttäjäSalasana" value="" </td>
       </tr><tr>
         <td>Sähköposti:</td><br/>
-       <td class="death"><input type="text" name="sähköposti" sähköposti="" value=""</td>
+       <td class="death"><input  id="sähkö" type="text" name="sähköposti" sähköposti="" value=""</td>
       </tr>
     <hr/>
     </table>
@@ -33,11 +33,16 @@
         <option value="monitori" class="ammatti">Monitori</option>
       </select><br/>
       <input type="checkbox" class="checkbox" name="Muista" value="Muista">Muista minut</br>
-    <input type="button" value="Submit" id="Button1" class="button" onclick="OnClickEvent()"></tr></td><br/><br/>
+    <input type="submit" value="Submit" id="Button1" class="button" ></tr></td><br/><br/>
 <script src="Main.js"></script>
-
-
-
+</br>
+</br>
+</br>
+</br>
+</br>
+<p id="varoitus" value=""></p>
+<p id="varoitus1" value=""></p>
+<p id="varoitus2" value=""></p>
   </form>
 <div class = "shadow"></div>
 
