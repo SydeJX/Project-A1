@@ -122,3 +122,18 @@ background-color: #595858;
 input[type=text]:focus {
   color: white;
 }
+
+input[type=password] {
+  width: 140%;
+  padding: 2px 9px;
+  display: inline-block;
+  border: 2px solid red;
+  border-raidus: 7px;
+  box-sizing: border-box;
+  background-color: #595858;
+}
+
+
+input[type=password]:focus {
+  color: white;
+}
