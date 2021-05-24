@@ -17,11 +17,11 @@ return false;
 
 if (sähköposti.length == "") {
   document.getElementById('varoitus2').innerHTML = "Sähköposti ei voi olla tyhjä";
-  return false;
+
+}
+if (!ehdot.test(sähköposti)){
   var ehdot = /\S+@\S+/;
-  if (!ehdot.test(sähköposti)){
-    document.getElementById('varoitus2').innerHTML = "Väärä sähköposti";
-    return false;
-  }
+  document.getElementById('varoitus2').innerHTML = "Väärä sähköposti";
+  return false;
 }
 }
