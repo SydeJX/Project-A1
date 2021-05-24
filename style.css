@@ -123,6 +123,7 @@ input[type=text]:focus {
   color: white;
 }
 
+
 input[type=password] {
   width: 140%;
   padding: 2px 9px;
